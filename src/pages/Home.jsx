@@ -32,7 +32,7 @@ const Home = () => {
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
               />
-              <Search className="absolute right-3 top-3 text-gray-400" size={24} />
+              <Search className="absolute right-3 top-3 text-gray-400 hidden md:block" size={24} />
             </div>
             <button
               type="submit"
